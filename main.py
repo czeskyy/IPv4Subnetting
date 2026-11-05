@@ -1,7 +1,8 @@
 from classes.IPv4 import IPv4
 def main():
-    ip=IPv4("192.168.0.1","255.255.255.0")
-    ip.show_addr_and_mask()
+    s = input("Podaj adres ip: ")
+    ip=IPv4(s)
+    ip.show_info()
 
 
 if __name__=="__main__":

@@ -3,4 +3,5 @@ temp/
 __pycache__/
 *.pyc
 *.swp
+*.vim
 .vscode/
